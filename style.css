@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 247, 243);
+}
+
+.main_container {
+  width: 1920px;
+  height: 1080px;
+  display: flex;
+}
+
+.box_1 {
+  width: 806px;
+  height: 1080px;
+}
+
+.box_2 {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.registration {
+  width: 434px;
+  height: 794px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(148, 148, 148, 1);
+}
+
+.account {
+  display: flex;
+  gap: 20px;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+  margin-top: 7px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(33, 33, 33, 1);
+}
+
+#name {
+  width: 400px;
+  height: 45px;
+  border: 1px solid rgba(148, 148, 148, 0.5);
+}
+
+#email {
+  width: 400px;
+  height: 45px;
+  border: 1px solid rgba(148, 148, 148, 0.5);
+}
+
+#password {
+  width: 400px;
+  height: 45px;
+  border: 1px solid rgba(148, 148, 148, 0.5);
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 69px;
+  border-radius: 8px;
+  background-color: white;
+  gap: 20px;
+  border: 1px solid rgba(148, 148, 148, 0.5);
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 69px;
+  border-radius: 8px;
+  background-color: rgba(68, 67, 255, 1);
+  border: none;
+  box-shadow: 3px 2px 3px blue;
+}
+
+.ptag {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.ptag1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(68, 67, 255, 1);
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.button1 {
+  padding-top: 20px;
+}
+
+.button2 {
+  padding-top: 20px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(148, 148, 148, 1);
+}
+
+.passicon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 272px;
+  left: 370px;
+}
